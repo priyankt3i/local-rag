@@ -5,7 +5,7 @@ a = Analysis(
     ['app_wrapper.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('main.py', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,4 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+    icon=['my_icon.ico'],
 )

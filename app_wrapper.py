@@ -1,7 +1,6 @@
 import subprocess
 import threading
 import webview
-import os
 
 def run_streamlit():
     # Run the Streamlit app
@@ -19,5 +18,6 @@ if __name__ == "__main__":
     time.sleep(2)
 
     # Open the app in a pywebview window
-    webview.create_window("My Streamlit App", "http://localhost:8501")
+    webview.create_window("LOCAL-RAG", "http://localhost:8501", width=1024, height=768)
     webview.start()
+

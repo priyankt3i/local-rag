@@ -32,3 +32,5 @@ Learn More:
 - [Known Bugs & Issues](docs/todo.md#known-issues--bugs)
 - [Resources](docs/resources.md)
 - [Contributing](docs/contributing.md)
+
+Icon Credit: https://www.vecteezy.com/members/iconicpanda 
